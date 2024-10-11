@@ -13,11 +13,11 @@ def sum_odd_and_even(lst):
         elif num % 2 == 1:
             odd.append(num)
 
-    for e in even:
-        sum_even += e
+    for num in even:
+        sum_even += num
 
-    for o in odd:
-        sum_odd += o
+    for num in odd:
+        sum_odd += num
 
     even_and_odd.append(sum_even)
     even_and_odd.append(sum_odd)
